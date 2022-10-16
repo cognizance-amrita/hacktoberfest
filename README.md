@@ -39,3 +39,9 @@ git push origin branch-name
 
 
 Don't forget to include the comments as seen above. Feel free to include additional information about the language you choose in your comments too! Like a link to a helpful introduction or tutorial. 
+
+## How to Contribute
+- Look for the questions you can solve in the `issues`.
+- Once you get the solution , create the `language folder` which you use if it doesnt exist.If the folder exists for the respective language, upload the solution in with filename `issue_name.{{extension}}`
+- Once you've put the solution in the respective folder, raise your PR.
+- Wait for maintainers to approve your PR, and voila, one PR for `hacktoberfest` has been successfully raised.
