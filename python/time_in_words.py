@@ -1,4 +1,3 @@
-
 def timeInWords(h, m):
 
     t=["zero", "one", "two", "three", "four", "five",
@@ -7,9 +6,7 @@ def timeInWords(h, m):
        "sixteen", "seventeen", "eighteen", "nineteen",
        "twenty", "twenty one", "twenty two", "twenty three",
        "twenty four", "twenty five" ,"twenty six",
-       "twenty seven", "twenty eight"," twenty nine"]
-
-    
+       "twenty seven", "twenty eight"," twenty nine"]    
     
     if(m==0):
         print(t[h],"o' clock")
@@ -22,16 +19,7 @@ def timeInWords(h, m):
     elif(m>30 and m<60 and m!=45):
         print(t[60-m],"minutes to",t[(h%12)+1])
 
-
 hour=int(input("enter hours: "))
 minutes=int(input("enter minutes: "))
 
 timeInWords(hour,minutes)
-
-
-        
-
-   
- 
-
-           
