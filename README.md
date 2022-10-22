@@ -49,3 +49,9 @@ Don't forget to include the comments as seen above. Feel free to include additio
 - Once you get the solution , create the `language folder` which you use if it doesnt exist.If the folder exists for the respective language, upload the solution in with filename `issue_name.{{extension}}`
 - Once you've put the solution in the respective folder, raise your PR.
 - Wait for maintainers to approve your PR, and voila, one PR for `hacktoberfest` has been successfully raised.
+
+## Our Top Contributors 
+<p align="center"><a href="https://github.com/garudatechnologydevelopers/Sketch-icons/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=garudatechnologydevelopers/Sketch-icons" />
+</a></p>
+
