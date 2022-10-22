@@ -51,7 +51,7 @@ Don't forget to include the comments as seen above. Feel free to include additio
 - Wait for maintainers to approve your PR, and voila, one PR for `hacktoberfest` has been successfully raised.
 
 ## Our Top Contributors 
-<p align="center"><a href="https://github.com/garudatechnologydevelopers/Sketch-icons/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=garudatechnologydevelopers/Sketch-icons" />
+<p align="center"><a href="https://github.com/cognizance-amrita/hacktoberfest/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=cognizance-amrita/hacktoberfest" />
 </a></p>
 
