@@ -11,7 +11,7 @@ public class Main
 	        if(y%4 == 0)
 	        System.out.println("12.09."+y);
 	        else
-	        System.out.println("13.09"+y);
+	        System.out.println("13.09."+y);
 	    }
 	    
 	    else if(y > 1918){
