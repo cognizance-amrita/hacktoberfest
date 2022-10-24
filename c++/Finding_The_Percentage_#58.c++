@@ -2,26 +2,28 @@
 using namespace std;
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    int n,j=0,marks[n][3];
-    string name[n],query;
+    int n;
+    string query;
     cin >> n;
-    for (int i=0;i<4;i++){
+    string name[n];
+    double marks[n][3];
+    for (int j=0;j<n;j++){
         cin >> name[j];
-        j++;
-        cin >> marks[j][i];
+        for (int i=0;i<3;i++){
+            cin >> marks[j][i];
+        }
     }
     cin >> query;
+    int j=0;
     for (int i=0;i<n;i++){
         if (name[i]==query){
             j=i;
         }
     }
-    int sum=0;
+    double sum=0;
     for (int i=0;i<3;i++){
         sum+=marks[j][i];
     }
-    printf("%.2f",((float)sum)/3.0);
+    printf("%.2f",sum/3.0);
     return 0;
 }
