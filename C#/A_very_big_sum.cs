@@ -9,7 +9,7 @@ class aVeryBigSum
         long sum=0;
         
         for(int i=0; i<n; i++){  
-	      arr[i] = Convert.ToInt32(Console.ReadLine());
+	      arr[i] = Convert.ToInt64(Console.ReadLine());
 	      sum+=arr[i];
         } 
         
